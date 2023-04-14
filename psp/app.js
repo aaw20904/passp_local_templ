@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //storage for session
 
 app.use(session({
-    cookie: {secure: true, maxAge:60000*60 /*mS*/}
+    cookie: { maxAge:60000*60 /*mS*/}
     secret: 'keyboard cat',
     resave: false,
     saveUninitialized: false,
