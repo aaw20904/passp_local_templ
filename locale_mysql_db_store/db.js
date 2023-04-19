@@ -1,9 +1,9 @@
 
 const mysql = require('mysql2'); //database mamnagement system MySQL
-var mkdirp = require('mkdirp');
+ 
 var crypto = require('crypto');
 
-mkdirp.sync('./var/db');
+ 
 
 /*beg_modify mysql*
 
