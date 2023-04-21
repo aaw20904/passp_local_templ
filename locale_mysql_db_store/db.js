@@ -14,7 +14,7 @@ var crypto = require('crypto');
 
 const connectionDB = mysql.createConnection({
   user: 'root',
-  password: '65535258',
+  password: 'f54ec8aff',
   host: 'localhost',
   database: 'mainbase',
   //the base 'mainbase' must be created manually!
